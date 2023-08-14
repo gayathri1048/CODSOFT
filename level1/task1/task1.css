@@ -1,0 +1,113 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    background: no-repeat;
+}
+body {
+    background-image: url('https://yesofcorsa.com/wp-content/uploads/2016/12/Technology-Wallpaper-High-Definition.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.header {
+    height: 80px;
+    width: 100%;
+    background-color:#8CC0DE ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search {
+ 
+    width: 30%;
+    /* border: 1px solid black; */
+    height: 40%;
+}
+ input {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px;
+} 
+.link {
+   /* border: 1px solid black; */
+   width: 30%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 40%;
+
+}
+
+.section{
+    width: 100%;
+    height: 150px;
+    /* display: flex;
+    justify-content: center; */
+}
+.tech{
+    width:100%;
+    height:500px;
+    border: 0;
+    border-style: none;
+    visibility:visible;
+}
+.nextsection{
+    display: flex;
+    justify-content:center;
+}
+.p1{
+    /* background-color: azure; */
+    color: white;
+    font-size: 50px;
+}
+.p2{
+    font-size: 20px;
+    color:bisque;
+    text-align: left;
+    width: 50%;
+}
+.b1 {
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    display: inline;
+
+  }
+h3{
+    font-size: 20px;
+    color: white;
+}
+.media
+{
+    position:absolute;
+    bottom:50px;
+    
+}
+.media a{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    background:#7d2ae8;
+    border-radius: 50%;
+    margin-right:22px;
+    text-align:center;
+    line-height:35px;
+    border:1px solid #fff;
+    outline:2px solid #7d2ae8;
+    transition:.3s;
+}
+.media a:hover {
+    transform:translateY(-5px);
+}
+.media a i{
+    color:#fff;
+}
